@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SaveFrenda</string>
+    <string name="xposed_description">去除 HyperOS 锁屏状态栏双卡运营商之间的分隔符 (|)</string>
+</resources>
