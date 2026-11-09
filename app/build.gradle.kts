@@ -31,6 +31,14 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+
+    // 自定义打包输出文件名
+    applicationVariants.all {
+        outputs.all {
+            val output = this as? com.android.build.gradle.internal.api.BaseVariantOutputImpl
+            output?.outputFileName = "SaveFrenda.apk"
+        }
+    }
 }
 
 dependencies {
